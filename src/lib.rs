@@ -12,6 +12,7 @@ mod romix;
 use hmac::Hmac;
 use pbkdf2::pbkdf2;
 use sha2::Sha256;
+pub use params::*;
 pub use errors::*;
 
 pub fn scrypt(
